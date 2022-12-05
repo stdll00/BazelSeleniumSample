@@ -1,0 +1,34 @@
+load("@io_bazel_rules_webtesting//web:py.bzl", "py_web_test_suite")
+
+py_web_test_suite(
+    name = "browser_test",
+    srcs = ["browser_test.py"],
+    browsers = [
+        "@io_bazel_rules_webtesting//browsers:chromium-local",
+    ],
+    local = True,
+    deps = ["@io_bazel_rules_webtesting//testing/web"],
+)
+
+py_web_test_suite(
+    name = "webtest_test",
+    srcs = ["webtest_test.py"],
+    browsers = [
+        "@io_bazel_rules_webtesting//browsers:chromium-local",
+        "@io_bazel_rules_webtesting//browsers:firefox-local",
+    ],
+    tags = {
+        "chromium-local": [
+            "native",
+        ],
+       "chrome-win10": [
+            "exclusive",
+            "sauce",
+            "notravis",
+        ],
+        "firefox-local": [
+            "native",
+        ],
+    },
+    deps = ["@io_bazel_rules_webtesting//testing/web","@com_github_urllib3//:com_github_urllib3"],
+)
