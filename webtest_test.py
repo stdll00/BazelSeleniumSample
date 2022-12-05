@@ -1,8 +1,11 @@
-import unittest
-from testing.web import webtest
 import os
 
 print(os.getenv("WEB_TEST_WEBDRIVER_SERVER"))
+
+print("-------")
+import unittest
+
+from testing.web import webtest
 
 
 class BrowserTest(unittest.TestCase):
