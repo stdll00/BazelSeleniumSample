@@ -1,5 +1,8 @@
 import unittest
 from testing.web import webtest
+import os
+
+print(os.getenv("WEB_TEST_WEBDRIVER_SERVER"))
 
 
 class BrowserTest(unittest.TestCase):
@@ -13,6 +16,7 @@ class BrowserTest(unittest.TestCase):
             self.driver = None
 
     # Your tests here
+
 
 if __name__ == "__main__":
     unittest.main()
