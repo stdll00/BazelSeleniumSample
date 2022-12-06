@@ -1,5 +1,6 @@
 import unittest
-from testing.web import webtest
+# from testing.web import webtest  # gazelle:ignore # TODO
+import urllib3 as _
 
 
 class BrowserTest(unittest.TestCase):
@@ -13,6 +14,7 @@ class BrowserTest(unittest.TestCase):
             self.driver = None
 
     # Your tests here
+
 
 if __name__ == "__main__":
     unittest.main()

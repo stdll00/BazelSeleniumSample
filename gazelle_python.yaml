@@ -1,0 +1,55 @@
+# GENERATED FILE - DO NOT EDIT!
+#
+# To update this file, run:
+#   bazel run //:gazelle_python_manifest.update
+
+manifest:
+  modules_mapping:
+    urllib3: urllib3
+    urllib3.__init__: urllib3
+    urllib3._collections: urllib3
+    urllib3._version: urllib3
+    urllib3.connection: urllib3
+    urllib3.connectionpool: urllib3
+    urllib3.contrib: urllib3
+    urllib3.contrib.__init__: urllib3
+    urllib3.contrib._appengine_environ: urllib3
+    urllib3.contrib._securetransport: urllib3
+    urllib3.contrib._securetransport.__init__: urllib3
+    urllib3.contrib._securetransport.bindings: urllib3
+    urllib3.contrib._securetransport.low_level: urllib3
+    urllib3.contrib.appengine: urllib3
+    urllib3.contrib.ntlmpool: urllib3
+    urllib3.contrib.pyopenssl: urllib3
+    urllib3.contrib.securetransport: urllib3
+    urllib3.contrib.socks: urllib3
+    urllib3.exceptions: urllib3
+    urllib3.fields: urllib3
+    urllib3.filepost: urllib3
+    urllib3.packages: urllib3
+    urllib3.packages.__init__: urllib3
+    urllib3.packages.backports: urllib3
+    urllib3.packages.backports.__init__: urllib3
+    urllib3.packages.backports.makefile: urllib3
+    urllib3.packages.six: urllib3
+    urllib3.poolmanager: urllib3
+    urllib3.request: urllib3
+    urllib3.response: urllib3
+    urllib3.util: urllib3
+    urllib3.util.__init__: urllib3
+    urllib3.util.connection: urllib3
+    urllib3.util.proxy: urllib3
+    urllib3.util.queue: urllib3
+    urllib3.util.request: urllib3
+    urllib3.util.response: urllib3
+    urllib3.util.retry: urllib3
+    urllib3.util.ssl_: urllib3
+    urllib3.util.ssl_match_hostname: urllib3
+    urllib3.util.ssltransport: urllib3
+    urllib3.util.timeout: urllib3
+    urllib3.util.url: urllib3
+    urllib3.util.wait: urllib3
+  pip_repository:
+    name: pip
+    incremental: false
+integrity: 8ca7c8b29808c595915c7434b0cd493c42f8df3d738bf0bd4a7a54685473e1e9
