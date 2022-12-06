@@ -1,0 +1,13 @@
+# For running sauce-based configs.
+test --test_env=SAUCE_USERNAME
+test --test_env=SAUCE_ACCESS_KEY
+test --test_env=TUNNEL_IDENTIFIER
+test --test_env=BUILD_TAG
+test --local_test_jobs=5
+
+# M1Mac Support https://github.com/bazelbuild/rules_webtesting/issues/438
+build --experimental_inprocess_symlink_creation
+
+# Below line may required for some environment
+# build --nobuild_runfile_links
+# See more: https://github.com/bazelbuild/rules_webtesting/blob/master/.bazelrc
