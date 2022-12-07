@@ -51,9 +51,12 @@ py_web_test_suite(
     name = "browser_test",
     srcs = ["browser_test.py"],
     browsers = [
-        "@io_bazel_rules_webtesting//browsers:chromium-local",
+        "//browsers:chromium-local-no-headless",
     ],
     local = True,
+    tags = {
+        "chromium-local-no-headless": ["native"],
+    },
     deps = [
         "@io_bazel_rules_webtesting//testing/web",
         "@pip_urllib3//:pkg",
