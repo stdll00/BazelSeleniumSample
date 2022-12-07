@@ -64,5 +64,8 @@ py_library(
     name = "SeleniumBazelBase",
     srcs = ["browser_test.py"],
     visibility = ["//:__subpackages__"],
-    deps = ["@pip_urllib3//:pkg"],
+    deps = [
+        "@pip_selenium//:pkg",
+        "@pip_urllib3//:pkg",
+    ],
 )
