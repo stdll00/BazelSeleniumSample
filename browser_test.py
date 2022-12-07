@@ -1,5 +1,5 @@
 import unittest
-# from testing.web import webtest  # gazelle:ignore # TODO
+from testing.web import webtest  # gazelle:ignore testing.web
 import urllib3 as _
 
 
