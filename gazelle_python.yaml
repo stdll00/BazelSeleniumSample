@@ -6,60 +6,23 @@
 manifest:
   modules_mapping:
     async_generator: async_generator
-    async_generator.__init__: async_generator
-    async_generator._impl: async_generator
-    async_generator._tests: async_generator
-    async_generator._tests.__init__: async_generator
-    async_generator._tests.conftest: async_generator
-    async_generator._tests.test_async_generator: async_generator
-    async_generator._tests.test_util: async_generator
-    async_generator._util: async_generator
-    async_generator._version: async_generator
     attr: attrs
-    attr.__init__: attrs
-    attr._cmp: attrs
-    attr._compat: attrs
-    attr._config: attrs
-    attr._funcs: attrs
-    attr._make: attrs
-    attr._next_gen: attrs
-    attr._version_info: attrs
     attr.converters: attrs
     attr.exceptions: attrs
     attr.filters: attrs
     attr.setters: attrs
     attr.validators: attrs
     attrs: attrs
-    attrs.__init__: attrs
     attrs.converters: attrs
     attrs.exceptions: attrs
     attrs.filters: attrs
     attrs.setters: attrs
     attrs.validators: attrs
     certifi: certifi
-    certifi.__init__: certifi
-    certifi.__main__: certifi
     certifi.core: certifi
     exceptiongroup: exceptiongroup
-    exceptiongroup.__init__: exceptiongroup
-    exceptiongroup._catch: exceptiongroup
-    exceptiongroup._exceptions: exceptiongroup
-    exceptiongroup._formatting: exceptiongroup
-    exceptiongroup._version: exceptiongroup
     h11: h11
-    h11.__init__: h11
-    h11._abnf: h11
-    h11._connection: h11
-    h11._events: h11
-    h11._headers: h11
-    h11._readers: h11
-    h11._receivebuffer: h11
-    h11._state: h11
-    h11._util: h11
-    h11._version: h11
-    h11._writers: h11
     h11.tests: h11
-    h11.tests.__init__: h11
     h11.tests.helpers: h11
     h11.tests.test_against_stdlib_http: h11
     h11.tests.test_connection: h11
@@ -71,7 +34,6 @@ manifest:
     h11.tests.test_state: h11
     h11.tests.test_util: h11
     idna: idna
-    idna.__init__: idna
     idna.codec: idna
     idna.compat: idna
     idna.core: idna
@@ -80,34 +42,23 @@ manifest:
     idna.package_data: idna
     idna.uts46data: idna
     outcome: outcome
-    outcome.__init__: outcome
-    outcome._impl: outcome
-    outcome._util: outcome
-    outcome._version: outcome
     selenium: selenium
-    selenium.__init__: selenium
     selenium.common: selenium
-    selenium.common.__init__: selenium
     selenium.common.exceptions: selenium
     selenium.types: selenium
     selenium.webdriver: selenium
-    selenium.webdriver.__init__: selenium
     selenium.webdriver.chrome: selenium
-    selenium.webdriver.chrome.__init__: selenium
     selenium.webdriver.chrome.options: selenium
     selenium.webdriver.chrome.service: selenium
     selenium.webdriver.chrome.webdriver: selenium
     selenium.webdriver.chromium: selenium
-    selenium.webdriver.chromium.__init__: selenium
     selenium.webdriver.chromium.options: selenium
     selenium.webdriver.chromium.remote_connection: selenium
     selenium.webdriver.chromium.service: selenium
     selenium.webdriver.chromium.webdriver: selenium
     selenium.webdriver.common: selenium
-    selenium.webdriver.common.__init__: selenium
     selenium.webdriver.common.action_chains: selenium
     selenium.webdriver.common.actions: selenium
-    selenium.webdriver.common.actions.__init__: selenium
     selenium.webdriver.common.actions.action_builder: selenium
     selenium.webdriver.common.actions.input_device: selenium
     selenium.webdriver.common.actions.interaction: selenium
@@ -120,13 +71,11 @@ manifest:
     selenium.webdriver.common.actions.wheel_input: selenium
     selenium.webdriver.common.alert: selenium
     selenium.webdriver.common.bidi: selenium
-    selenium.webdriver.common.bidi.__init__: selenium
     selenium.webdriver.common.bidi.cdp: selenium
     selenium.webdriver.common.bidi.console: selenium
     selenium.webdriver.common.by: selenium
     selenium.webdriver.common.desired_capabilities: selenium
     selenium.webdriver.common.devtools.v106: selenium
-    selenium.webdriver.common.devtools.v106.__init__: selenium
     selenium.webdriver.common.devtools.v106.accessibility: selenium
     selenium.webdriver.common.devtools.v106.animation: selenium
     selenium.webdriver.common.devtools.v106.audits: selenium
@@ -175,7 +124,6 @@ manifest:
     selenium.webdriver.common.devtools.v106.web_audio: selenium
     selenium.webdriver.common.devtools.v106.web_authn: selenium
     selenium.webdriver.common.devtools.v107: selenium
-    selenium.webdriver.common.devtools.v107.__init__: selenium
     selenium.webdriver.common.devtools.v107.accessibility: selenium
     selenium.webdriver.common.devtools.v107.animation: selenium
     selenium.webdriver.common.devtools.v107.audits: selenium
@@ -224,7 +172,6 @@ manifest:
     selenium.webdriver.common.devtools.v107.web_audio: selenium
     selenium.webdriver.common.devtools.v107.web_authn: selenium
     selenium.webdriver.common.devtools.v108: selenium
-    selenium.webdriver.common.devtools.v108.__init__: selenium
     selenium.webdriver.common.devtools.v108.accessibility: selenium
     selenium.webdriver.common.devtools.v108.animation: selenium
     selenium.webdriver.common.devtools.v108.audits: selenium
@@ -273,7 +220,6 @@ manifest:
     selenium.webdriver.common.devtools.v108.web_audio: selenium
     selenium.webdriver.common.devtools.v108.web_authn: selenium
     selenium.webdriver.common.devtools.v85: selenium
-    selenium.webdriver.common.devtools.v85.__init__: selenium
     selenium.webdriver.common.devtools.v85.accessibility: selenium
     selenium.webdriver.common.devtools.v85.animation: selenium
     selenium.webdriver.common.devtools.v85.application_cache: selenium
@@ -321,7 +267,6 @@ manifest:
     selenium.webdriver.common.devtools.v85.web_audio: selenium
     selenium.webdriver.common.devtools.v85.web_authn: selenium
     selenium.webdriver.common.html5: selenium
-    selenium.webdriver.common.html5.__init__: selenium
     selenium.webdriver.common.html5.application_cache: selenium
     selenium.webdriver.common.keys: selenium
     selenium.webdriver.common.log: selenium
@@ -335,12 +280,10 @@ manifest:
     selenium.webdriver.common.virtual_authenticator: selenium
     selenium.webdriver.common.window: selenium
     selenium.webdriver.edge: selenium
-    selenium.webdriver.edge.__init__: selenium
     selenium.webdriver.edge.options: selenium
     selenium.webdriver.edge.service: selenium
     selenium.webdriver.edge.webdriver: selenium
     selenium.webdriver.firefox: selenium
-    selenium.webdriver.firefox.__init__: selenium
     selenium.webdriver.firefox.extension_connection: selenium
     selenium.webdriver.firefox.firefox_binary: selenium
     selenium.webdriver.firefox.firefox_profile: selenium
@@ -349,12 +292,10 @@ manifest:
     selenium.webdriver.firefox.service: selenium
     selenium.webdriver.firefox.webdriver: selenium
     selenium.webdriver.ie: selenium
-    selenium.webdriver.ie.__init__: selenium
     selenium.webdriver.ie.options: selenium
     selenium.webdriver.ie.service: selenium
     selenium.webdriver.ie.webdriver: selenium
     selenium.webdriver.remote: selenium
-    selenium.webdriver.remote.__init__: selenium
     selenium.webdriver.remote.bidi_connection: selenium
     selenium.webdriver.remote.command: selenium
     selenium.webdriver.remote.errorhandler: selenium
@@ -368,14 +309,12 @@ manifest:
     selenium.webdriver.remote.webdriver: selenium
     selenium.webdriver.remote.webelement: selenium
     selenium.webdriver.safari: selenium
-    selenium.webdriver.safari.__init__: selenium
     selenium.webdriver.safari.options: selenium
     selenium.webdriver.safari.permissions: selenium
     selenium.webdriver.safari.remote_connection: selenium
     selenium.webdriver.safari.service: selenium
     selenium.webdriver.safari.webdriver: selenium
     selenium.webdriver.support: selenium
-    selenium.webdriver.support.__init__: selenium
     selenium.webdriver.support.abstract_event_listener: selenium
     selenium.webdriver.support.color: selenium
     selenium.webdriver.support.event_firing_webdriver: selenium
@@ -386,131 +325,27 @@ manifest:
     selenium.webdriver.support.ui: selenium
     selenium.webdriver.support.wait: selenium
     selenium.webdriver.webkitgtk: selenium
-    selenium.webdriver.webkitgtk.__init__: selenium
     selenium.webdriver.webkitgtk.options: selenium
     selenium.webdriver.webkitgtk.service: selenium
     selenium.webdriver.webkitgtk.webdriver: selenium
     selenium.webdriver.wpewebkit: selenium
-    selenium.webdriver.wpewebkit.__init__: selenium
     selenium.webdriver.wpewebkit.options: selenium
     selenium.webdriver.wpewebkit.service: selenium
     selenium.webdriver.wpewebkit.webdriver: selenium
     sniffio: sniffio
-    sniffio.__init__: sniffio
-    sniffio._impl: sniffio
-    sniffio._tests: sniffio
-    sniffio._tests.__init__: sniffio
-    sniffio._tests.test_sniffio: sniffio
-    sniffio._version: sniffio
     socks: PySocks
     sockshandler: PySocks
     sortedcontainers: sortedcontainers
-    sortedcontainers.__init__: sortedcontainers
     sortedcontainers.sorteddict: sortedcontainers
     sortedcontainers.sortedlist: sortedcontainers
     sortedcontainers.sortedset: sortedcontainers
     trio: trio
-    trio.__init__: trio
-    trio._abc: trio
-    trio._channel: trio
-    trio._core: trio
-    trio._core.__init__: trio
-    trio._core._asyncgens: trio
-    trio._core._entry_queue: trio
-    trio._core._exceptions: trio
-    trio._core._generated_instrumentation: trio
-    trio._core._generated_io_epoll: trio
-    trio._core._generated_io_kqueue: trio
-    trio._core._generated_io_windows: trio
-    trio._core._generated_run: trio
-    trio._core._instrumentation: trio
-    trio._core._io_common: trio
-    trio._core._io_epoll: trio
-    trio._core._io_kqueue: trio
-    trio._core._io_windows: trio
-    trio._core._ki: trio
-    trio._core._local: trio
-    trio._core._mock_clock: trio
-    trio._core._multierror: trio
-    trio._core._parking_lot: trio
-    trio._core._run: trio
-    trio._core._thread_cache: trio
-    trio._core._traps: trio
-    trio._core._unbounded_queue: trio
-    trio._core._wakeup_socketpair: trio
-    trio._core._windows_cffi: trio
-    trio._core.tests: trio
-    trio._core.tests.__init__: trio
-    trio._core.tests.conftest: trio
-    trio._core.tests.test_asyncgen: trio
-    trio._core.tests.test_guest_mode: trio
-    trio._core.tests.test_instrumentation: trio
-    trio._core.tests.test_io: trio
-    trio._core.tests.test_ki: trio
-    trio._core.tests.test_local: trio
-    trio._core.tests.test_mock_clock: trio
-    trio._core.tests.test_multierror: trio
-    trio._core.tests.test_multierror_scripts: trio
-    trio._core.tests.test_multierror_scripts.__init__: trio
-    trio._core.tests.test_multierror_scripts._common: trio
-    trio._core.tests.test_multierror_scripts.apport_excepthook: trio
-    trio._core.tests.test_multierror_scripts.ipython_custom_exc: trio
-    trio._core.tests.test_multierror_scripts.simple_excepthook: trio
-    trio._core.tests.test_multierror_scripts.simple_excepthook_IPython: trio
-    trio._core.tests.test_parking_lot: trio
-    trio._core.tests.test_run: trio
-    trio._core.tests.test_thread_cache: trio
-    trio._core.tests.test_tutil: trio
-    trio._core.tests.test_unbounded_queue: trio
-    trio._core.tests.test_util: trio
-    trio._core.tests.test_windows: trio
-    trio._core.tests.tutil: trio
-    trio._deprecate: trio
-    trio._dtls: trio
-    trio._file_io: trio
-    trio._highlevel_generic: trio
-    trio._highlevel_open_tcp_listeners: trio
-    trio._highlevel_open_tcp_stream: trio
-    trio._highlevel_open_unix_stream: trio
-    trio._highlevel_serve_listeners: trio
-    trio._highlevel_socket: trio
-    trio._highlevel_ssl_helpers: trio
-    trio._path: trio
-    trio._signals: trio
-    trio._socket: trio
-    trio._ssl: trio
-    trio._subprocess: trio
-    trio._subprocess_platform: trio
-    trio._subprocess_platform.__init__: trio
-    trio._subprocess_platform.kqueue: trio
-    trio._subprocess_platform.waitid: trio
-    trio._subprocess_platform.windows: trio
-    trio._sync: trio
-    trio._threads: trio
-    trio._timeouts: trio
-    trio._tools: trio
-    trio._tools.__init__: trio
-    trio._tools.gen_exports: trio
-    trio._unix_pipes: trio
-    trio._util: trio
-    trio._version: trio
-    trio._wait_for_object: trio
-    trio._windows_pipes: trio
     trio.abc: trio
     trio.from_thread: trio
     trio.lowlevel: trio
     trio.socket: trio
     trio.testing: trio
-    trio.testing.__init__: trio
-    trio.testing._check_streams: trio
-    trio.testing._checkpoints: trio
-    trio.testing._fake_net: trio
-    trio.testing._memory_streams: trio
-    trio.testing._network: trio
-    trio.testing._sequencer: trio
-    trio.testing._trio_test: trio
     trio.tests: trio
-    trio.tests.__init__: trio
     trio.tests.conftest: trio
     trio.tests.module_with_deprecations: trio
     trio.tests.test_abc: trio
@@ -543,26 +378,13 @@ manifest:
     trio.tests.test_wait_for_object: trio
     trio.tests.test_windows_pipes: trio
     trio.tests.tools: trio
-    trio.tests.tools.__init__: trio
     trio.tests.tools.test_gen_exports: trio
     trio.to_thread: trio
     trio_websocket: trio_websocket
-    trio_websocket.__init__: trio_websocket
-    trio_websocket._impl: trio_websocket
-    trio_websocket._version: trio_websocket
     urllib3: urllib3
-    urllib3.__init__: urllib3
-    urllib3._collections: urllib3
-    urllib3._version: urllib3
     urllib3.connection: urllib3
     urllib3.connectionpool: urllib3
     urllib3.contrib: urllib3
-    urllib3.contrib.__init__: urllib3
-    urllib3.contrib._appengine_environ: urllib3
-    urllib3.contrib._securetransport: urllib3
-    urllib3.contrib._securetransport.__init__: urllib3
-    urllib3.contrib._securetransport.bindings: urllib3
-    urllib3.contrib._securetransport.low_level: urllib3
     urllib3.contrib.appengine: urllib3
     urllib3.contrib.ntlmpool: urllib3
     urllib3.contrib.pyopenssl: urllib3
@@ -572,16 +394,13 @@ manifest:
     urllib3.fields: urllib3
     urllib3.filepost: urllib3
     urllib3.packages: urllib3
-    urllib3.packages.__init__: urllib3
     urllib3.packages.backports: urllib3
-    urllib3.packages.backports.__init__: urllib3
     urllib3.packages.backports.makefile: urllib3
     urllib3.packages.six: urllib3
     urllib3.poolmanager: urllib3
     urllib3.request: urllib3
     urllib3.response: urllib3
     urllib3.util: urllib3
-    urllib3.util.__init__: urllib3
     urllib3.util.connection: urllib3
     urllib3.util.proxy: urllib3
     urllib3.util.queue: urllib3
@@ -595,7 +414,6 @@ manifest:
     urllib3.util.url: urllib3
     urllib3.util.wait: urllib3
     wsproto: wsproto
-    wsproto.__init__: wsproto
     wsproto.connection: wsproto
     wsproto.events: wsproto
     wsproto.extensions: wsproto
@@ -606,4 +424,4 @@ manifest:
   pip_repository:
     name: pip
     incremental: true
-integrity: 64b0be326f73bcf19b2eefdbe13c8e5e2a79cd321fbff4833dd34c9b5555762f
+integrity: 8c637522545ba9eecba1858e805744a8082b5392cde7c496424dde041cecd1e9
