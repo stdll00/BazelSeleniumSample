@@ -1,3 +1,4 @@
+import time
 import unittest
 from testing.web import webtest  # gazelle:ignore testing.web
 import urllib3 as _
@@ -16,6 +17,7 @@ class BrowserTest(unittest.TestCase):
 
     def test_sample_google_title(self):
         self.driver.get("https://google.com")
+        time.sleep(1)
         if self.driver.title != "Google":
             raise ValueError("title seems invalid")
 

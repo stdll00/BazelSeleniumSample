@@ -52,10 +52,12 @@ py_web_test_suite(
     srcs = ["browser_test.py"],
     browsers = [
         "//browsers:chromium-local-no-headless",
+        "@io_bazel_rules_webtesting//browsers:chromium-local",
     ],
     local = True,
     tags = {
         "chromium-local-no-headless": ["native"],
+        "chromium-local": ["native"],
     },
     deps = [
         "@io_bazel_rules_webtesting//testing/web",
